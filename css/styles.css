@@ -1,34 +1,113 @@
 /* Exercice 01 */
 
+a[href="page1.html"] {
+  margin: 0 20px;
+}
+
 /* Exercice 02 */
+
+.exercice02 blockquote::first-letter{
+  color: red;
+  font-size: 3.125rem;
+}
 
 /* Exercice 03 */
 
+.exercice03 blockquote::first-line{
+  color: red;
+  font-weight: bold;
+}
+
 /* Exercice 04 */
+
+.exercice04 p + ul{
+  color: red;
+}
 
 /* Exercice 05 */
 
+.exercice05 li a[href="page1.html"]{
+  display: inline-block;
+  font-family: 'Material Symbols Outlined';
+  font-size: 0.875rem;
+  line-height: 1;
+  margin-left: 5px;
+}
+
 /* Exercice 06 */
+
+.exercice06 li:nth-child(2n){
+  background-color: red;
+}
 
 /* Exercice 07 */
 
+.exercice07 li:nth-child(2n + 1){
+  background-color: red;
+}
+
 /* Exercice 08 */
+
+.exercice08 li:nth-child(-n+3){
+  background-color: red;
+}
 
 /* Exercice 09 */
 
+.exercice09 li:nth-child(99){
+  background-color: red;
+}
+
 /* Exercice 10 */
+
+.exercice10 li:nth-child(n + 14):nth-child(-n + 23){
+  background-color: red;
+}
 
 /* Exercice 11 */
 
+section.exercice11 ul{
+  border: 3px solid red;
+}
+
 /* Exercice 12 */
+
+section.exercice12 > ul{
+border: 3px solid red;
+}
 
 /* Exercice 13 */
 
+.exercice13 img[src="images/nuage.jpg"]{
+  border: 3px solid red;
+}
+
 /* Exercice 14 */
+
+nav a:hover{
+  background-color: #bf2a2a;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  color: black;
+}
 
 /* Exercice 15 */
 
+.exercice15 h2::selection{
+  background-color: black;
+  color: white;
+}
+
+.exercice15 p::selection{
+  background-color: #666;
+  color: white;
+}
+
 /* Exercice 16 */
+
+.exercice16 p:not([lang="fr"]){
+  color: red;
+}
 
 /* Exercice 17 */
 
