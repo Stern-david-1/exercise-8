@@ -72,28 +72,28 @@ class SplitText {
 // Start Example -- Uncomment all above for a demo
 
 
-// const button1 = document.querySelector('.button-1')
+ const button1 = document.querySelector('.button-1')
 
-// const text1 = document.querySelector('.text-1')
-// const textSplit = new SplitText(text1)
-// const chars = textSplit.querySelectorAll('.char')
-// console.log({textSplit})
+ const text1 = document.querySelector('.text-1')
+ const textSplit = new SplitText(text1)
+ const chars = textSplit.querySelectorAll('.char')
+ console.log({textSplit})
 
-// button1.addEventListener('click', () => {
+ button1.addEventListener('click', () => {
 
-// 	chars.forEach(char => {
-// 		char.style.color = `hsl(${Math.floor(Math.random() * ((1 + 40) - 1))}, 80%, 70%)`
-// 		char.style.transform = `rotate(${Math.floor(Math.random() * ((-12 + 12) - (-12)))}deg)`
-// 	})
+ 	chars.forEach(char => {
+ 		char.style.color = `hsl(${Math.floor(Math.random() * ((1 + 40) - 1))}, 80%, 70%)`
+ 		char.style.transform = `rotate(${Math.floor(Math.random() * ((-12 + 12) - (-12)))}deg)`
+ 	})
 
-// })
+ })
 
-// const button2 = document.querySelector('.button-2')
-// let isPressedOnce = false
-// button2.addEventListener('click', () => {
-// 	if(!isPressedOnce) {
-// 		isPressedOnce = true
-// 		const text2 = document.querySelector('.text-2')
-// 		new SplitText(text2)
-// 	}
-// })
+ const button2 = document.querySelector('.button-2')
+ let isPressedOnce = false
+ button2.addEventListener('click', () => {
+ 	if(!isPressedOnce) {
+ 		isPressedOnce = true
+ 		const text2 = document.querySelector('.text-2')
+ 		new SplitText(text2)
+ 	}
+ })

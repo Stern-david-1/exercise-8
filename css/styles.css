@@ -20,7 +20,7 @@ a[href="page1.html"] {
 
 /* Exercice 04 */
 
-.exercice04 p + ul{
+.exercice04 ul + p{
   color: red;
 }
 
@@ -111,7 +111,15 @@ nav a:hover{
 
 /* Exercice 17 */
 
+.exercice17 input[type="checkbox"]:checked + label{
+  color: red;
+}
+
 /* Exercice 18 */
+
+header h1::first-letter{
+  color: #640101;
+}
 
 /*-------------------------------------------
 -
